@@ -33,12 +33,12 @@ function Chart() {
               <React.Fragment key={id}>
                 <div className="box-content-inner">
                   <h5 className="title">{title}</h5>
-                  <p>{pageReview_data}</p>
-                  <p className="text-center">{uniquePagreview}</p>
-                  <p>{average_ontime}</p>
-                  <p>{extrance}</p>
-                  <p>{exit}</p>
-                  <p>{pageValue}</p>
+                  <divc>{pageReview_data}</divc>
+                  <div className="text-center">{uniquePagreview}</div>
+                  <div>{average_ontime}</div>
+                  <div>{extrance}</div>
+                  <div>{exit}</div>
+                  <div>{pageValue}</div>
                 </div>
               </React.Fragment>
             );
