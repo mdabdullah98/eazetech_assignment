@@ -1,50 +1,51 @@
 import React from "react";
 
 import "./chart.css";
+import { pagereviewData, pageStatistic } from "./index.js";
 
 function Chart() {
   return (
-    <div className="w-full flex justify-center items-center">
-      <div className=" page">
-        <p>Page</p>
+    <>
+      <div className="box-outer">
+        {pageStatistic.map(({ id, forum, forumCount, chart }) => {
+          return (
+            <div key={id} className="box-outer-content">
+              <p>{forum}</p>
+              {forumCount && <p>{forumCount}</p>}
+              {chart && <img src={`${chart}`} alt={`${chart}`}></img>}
+            </div>
+          );
+        })}
       </div>
-
-      <div className="box">
-        <p>Pageviews</p>
-        <p>356,928</p>
-        <img src="./pageviews/Chart.png" alt="" />
+      <div className="box-content">
+        {pagereviewData.map(
+          ({
+            id,
+            title,
+            uniquePagreview,
+            pageReview_data,
+            average_ontime,
+            extrance,
+            exit,
+            pageValue,
+          }) => {
+            return (
+              <React.Fragment key={id}>
+                <div className="box-content-inner">
+                  <h5 className="title">{title}</h5>
+                  <p>{pageReview_data}</p>
+                  <p className="text-center">{uniquePagreview}</p>
+                  <p>{average_ontime}</p>
+                  <p>{extrance}</p>
+                  <p>{exit}</p>
+                  <p>{pageValue}</p>
+                </div>
+              </React.Fragment>
+            );
+          }
+        )}
       </div>
-
-      <div className="box">
-        <p>Unique pageviews </p>
-        <p>275,588</p>
-        <img src="./pageviews/Chart-2.png" alt="" />
-      </div>
-
-      <div className="box">
-        <p>Avg. time on page </p>
-        <p> 00:03:51</p>
-        <img src="./pageviews/Chart-3.png" alt="" />
-      </div>
-
-      <div className="box">
-        <p>Extrances </p>
-        <p>315,643 </p>
-        <img src="./pageviews/Chart-4.png" alt="" />
-      </div>
-
-      <div className="box">
-        <p>% Exit </p>
-        <p>39,84% </p>
-        <img src="./pageviews/Chart-5.png" alt="" />
-      </div>
-
-      <div className="box">
-        <p>Page value </p>
-        <p>$19,983 </p>
-        <img src="./pageviews/Chart-6.png" alt="" />
-      </div>
-    </div>
+    </>
   );
 }
 

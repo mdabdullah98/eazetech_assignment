@@ -25,7 +25,7 @@ function Pageviews() {
             ))}
           </div>
           <div className="select-period flex items-center">
-            <p>Select</p>
+            <p>Select Period</p>
             <figure className="ms-1">
               <img src="./pageviews/Arrow.png" alt="" />
             </figure>

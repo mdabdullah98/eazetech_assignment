@@ -1,20 +1,38 @@
-.box {
-  width: 10rem;
-  font-size: 10.83px;
-  font-weight: 500;
-  line-height: 15.47px;
+.box-outer {
+  width: 100%;
   display: flex;
+}
+.box-outer-content {
+  width: 7.5rem;
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-end;
+  font-weight: 500;
+  line-height: 23.21px;
+  text-transform: capitalize;
 }
-.box img {
-  width: 71.18px;
-  height: 19.08px;
-  gap: 0px;
+.box-outer-content p:nth-child(1) {
+  font-size: 10.83px;
 }
-.page {
-  text-align: left;
+.box-outer-content p:nth-of-type(2) {
+  font-size: 13.93px;
+}
+.box-outer-content img {
+  margin: 0.3rem 0;
+}
+.box-content-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+.box-content-inner p {
   font-size: 10.83px;
   font-weight: 500;
   line-height: 15.47px;
+  margin: 0.2rem 0;
+}
+.box-content-inner h5.title {
+  font-size: 9.5px;
+  text-align: left;
 }
