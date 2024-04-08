@@ -9,7 +9,7 @@ function Pageviews() {
     <div className="pageview-main">
       <div className="pageview-dropdown-period">
         <div className="pageview-dropdown">
-          <h3>Pageview</h3>
+          <h3>Pageviews</h3>
           <figure className="ms-1">
             <img src="./pageviews/Arrow.png" alt="" />
           </figure>
