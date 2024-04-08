@@ -1,0 +1,47 @@
+.pageview-main {
+  width: 882px;
+  height: 300.63px;
+  border: 1px solid red;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.pageview-dropdown-period {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #d9dadb;
+}
+
+.pageview-dropdown {
+  width: 65px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+}
+.pageview-period {
+  display: flex;
+  align-items: center;
+  border: 0.77px solid #d9dadb;
+  border-radius: 5px;
+}
+
+.pageview-period-text {
+  padding: 0.3rem 0.8rem;
+  border-left: 0.77px solid #d9dadb;
+}
+.pageview-period .pageview-period-text p,
+.select-period p {
+  font-size: 10.83px;
+  font-weight: 500;
+  line-height: 15.47px;
+  text-align: center;
+}
+
+.pageview-dropdown-period .select-period {
+  margin: 0.5rem;
+  border: 0.77px solid #d9dadb;
+  padding: 0.3rem 1.3rem;
+  border-radius: 5px;
+}

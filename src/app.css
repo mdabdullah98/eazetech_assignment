@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.analytics-main {
+  width: 1280px;
+  height: 889px;
+  gap: 27.56px;
+  padding: 0px 1.78px;
+}
+
+.analytics-main .analytics-inner {
+  width: 1276.44px;
+  height: 100%;
+  gap: 28px;
+  display: flex;
+}

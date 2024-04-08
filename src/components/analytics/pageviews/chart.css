@@ -1,0 +1,20 @@
+.box {
+  width: 10rem;
+  font-size: 10.83px;
+  font-weight: 500;
+  line-height: 15.47px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.box img {
+  width: 71.18px;
+  height: 19.08px;
+  gap: 0px;
+}
+.page {
+  text-align: left;
+  font-size: 10.83px;
+  font-weight: 500;
+  line-height: 15.47px;
+}

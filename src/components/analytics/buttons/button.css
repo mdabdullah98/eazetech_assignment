@@ -1,0 +1,43 @@
+.buttons-group {
+  width: 100%;
+  gap: 10px;
+}
+.buttons-group button {
+  display: inline-block;
+  height: 39.33px;
+  gap: 7.87px;
+  padding: 0.5rem 1.3rem;
+  border-radius: 98.33px;
+  border: 0.98px solid #6c6f6b;
+  color: #6c6f6b;
+}
+
+.buttons-group button:nth-of-type(2) {
+  color: #2f667f;
+}
+.buttons-group button.active {
+  background: #2f667f;
+  border: none;
+  color: #ffffff;
+}
+
+.buttons-group span {
+  display: inline-block;
+  width: 17.7px;
+  height: 17.7px;
+}
+
+.buttons-group button.active span img {
+  margin-top: 0.39rem;
+  margin-right: 0.5rem;
+}
+.buttons-group a {
+  font-size: 17.7px;
+  font-weight: 500;
+  line-height: 19.67px;
+  text-align: center;
+}
+
+.buttons-group button.clicked {
+  background: red;
+}

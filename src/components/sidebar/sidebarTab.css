@@ -1,0 +1,49 @@
+.sidebar-tab-container {
+  width: 236.44px;
+  height: 350.22px;
+  gap: 9.78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-items {
+  width: 236.44px;
+  height: 62.22px;
+  padding: 0px 22.22px;
+  border-radius: 17.78px;
+  display: flex;
+  gap: 15.11px;
+  align-items: center;
+}
+.list-items .sidebar-tab-icons {
+  margin-right: 1.21rem;
+}
+.list-items .sidebar-tab-icons {
+  width: 21.57px;
+  height: 20.67px;
+}
+.list-items .sidebar-tab-icons img {
+  width: 100%;
+}
+.list-items .sidebar-tab-text {
+  font-size: 17.78px;
+  font-weight: 400;
+  line-height: 17.78px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.list-items.active {
+  background: #539bbb;
+}
+
+.sidebar-bottom-tab {
+  width: 236.44px;
+  height: 149.33px;
+  padding: 12.44px 0px 12.44px 0px;
+  gap: 0px;
+  border-top: 0.89px solid #ffffff;
+  display: flex;
+}

@@ -1,0 +1,44 @@
+.cardFrame-main {
+  width: 890.5px;
+  height: 193.45px;
+  gap: 10.81px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 289.63px;
+  height: 100%;
+  padding: 21.61px;
+  gap: 3.24px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px 0px #6d6d6d80;
+  text-align: left;
+  line-height: 21.61px;
+}
+.cardFrame-main .card .card-ecllipse {
+  width: 15.13px;
+  height: 15.13px;
+  float: right;
+}
+.cardFrame-main .card .card-ecllipse img {
+  width: 100%;
+}
+
+.cardFrame-main .card .card-heading {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.cardFrame-main .card .cardText-cardDataNumbers .card-text p,
+.card-data-numbers p {
+  font-size: 15.13px;
+  font-weight: 300;
+  margin: 0.3rem 0;
+}
+.cardFrame-main .card .cardText-cardDataNumbers .card-data-numbers p {
+  font-weight: 600;
+}

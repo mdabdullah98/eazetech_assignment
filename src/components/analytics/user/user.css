@@ -1,0 +1,44 @@
+.user-settings {
+  width: 175.02px;
+  height: 41.01px;
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-settings .user-icon {
+  position: relative;
+  width: 31.67px;
+  height: 31.67px;
+  padding: 5.19px 0px 0px 0px;
+  gap: 5.19px;
+  border-radius: 10.38px;
+  background: #ffffff;
+  box-shadow: 0px 0.89px 1.78px 0px #0000001a,
+    1.78px 2.67px 3.56px 0px #00000017, 3.56px 6.22px 4.44px 0px #0000000d,
+    6.22px 11.56px 5.33px 0px #00000003, 9.78px 18.67px 6.22px 0px #00000000;
+}
+
+.user-icon img:nth-of-type(2) {
+  border: 1.33px 0px 0px 0px;
+}
+.ellipse-dot-icon {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 5.5px;
+  right: 4px;
+}
+.user-settings .ellipse-icon {
+  width: 41.01px;
+  height: 41.01px;
+  border-radius: 50%;
+  box-shadow: 0px 0.89px 1.78px 0px #0000001a,
+    1.78px 2.67px 3.56px 0px #00000017, 3.56px 6.22px 4.44px 0px #0000000d,
+    6.22px 11.56px 5.33px 0px #00000003, 9.78px 18.67px 6.22px 0px #00000000;
+}
+
+.user-settings .ellipse-icon img {
+  width: 100%;
+  border-radius: 50%;
+}

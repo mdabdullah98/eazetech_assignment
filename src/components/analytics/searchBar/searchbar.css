@@ -1,0 +1,56 @@
+.searcbar-form {
+  width: 407.95px;
+  height: 34.67px;
+  gap: 0px;
+  border-radius: 2.48px 2.48px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searcbar-form .input-group {
+  width: 100%;
+  height: 100%;
+  gap: 6.19px;
+  border-radius: 2.48px;
+  border: 0.62px solid #79747e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.searcbar-form .input-group .leading-icon,
+.trailing-icon {
+  width: 29.71px;
+  height: 29.71px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.19px;
+}
+.searcbar-form .input-group .leading-icon img,
+.trailing-icon img {
+  width: 14.86px;
+  height: 14.86px;
+}
+
+.searcbar-form .input-group input {
+  outline: none;
+  width: 348.5px;
+  height: 29.71px;
+  padding: 2.48px 0px 2.48px 0px;
+}
+.searcbar-form .input-group input::placeholder {
+  color: #000;
+}
+.searcbar-form .input-group label {
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  color: #539bbb;
+  background: #fff;
+  padding: 0.1rem;
+  font-size: 8.67px;
+  font-weight: 300;
+  line-height: 12.38px;
+  text-align: left;
+}
