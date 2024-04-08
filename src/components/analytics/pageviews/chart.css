@@ -25,12 +25,14 @@
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   gap: 2rem;
   text-align: center;
+  margin: 0.5rem 0;
+  border-bottom: 1px solid #d9dadb;
 }
 .box-content-inner div {
   font-size: 10.83px;
   font-weight: 500;
   line-height: 15.47px;
-  margin: 0.2rem 0;
+  margin: 0.3rem 0;
 }
 .box-content-inner h5.title {
   font-size: 9.5px;

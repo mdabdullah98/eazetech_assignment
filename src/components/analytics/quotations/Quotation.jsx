@@ -22,7 +22,9 @@ function Quotation() {
             return (
               <div
                 key={title}
-                className={`quotation-cards text-${color}`}
+                className={`quotation-cards ${
+                  color === "black" ? "text-black" : "text-white"
+                }`}
                 style={{
                   backgroundColor,
                   backgroundImage: `url(${backgroundImage})`,

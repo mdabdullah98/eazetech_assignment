@@ -1,8 +1,7 @@
 .pageview-main {
   width: 882px;
   height: 300.63px;
-  margin-top: 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .pageview-dropdown-period {
   width: 100%;
@@ -36,6 +35,9 @@
   font-weight: 500;
   line-height: 15.47px;
   text-align: center;
+}
+.pageview-period .pageview-period-text.active {
+  background: #a2d2fc;
 }
 
 .pageview-dropdown-period .select-period {

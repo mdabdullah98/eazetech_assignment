@@ -2,14 +2,6 @@ import "./cardFrame.css";
 
 import cardFrameData from "./index.js";
 
-// id: "_3",
-//     cardEllipseImage: "./cardFrame/Ellipse-62.png",
-//     heading: "on velocity",
-//     cardbody_1_text: "Average Velocity",
-//     cardbody_2_text: "Required Velocity",
-//     card_data_1: "428.6",
-//     card_data_2: "615.0",
-
 function CardFrame() {
   return (
     <div className="cardFrame-main ">

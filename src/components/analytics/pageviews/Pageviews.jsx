@@ -16,10 +16,12 @@ function Pageviews() {
         </div>
         <div className="flex justify-center items-center">
           <div className="pageview-period">
-            {periods.map(({ id, text, width }) => (
+            {periods.map(({ id, text, width, active }) => (
               <React.Fragment key={id}>
-                <div className="pageview-period-text">
-                  <p style={{ width: width }}>{text}</p>
+                <div
+                  className={`pageview-period-text ${active ? "active" : ""}`}
+                >
+                  <p style={{ width }}>{text}</p>
                 </div>
               </React.Fragment>
             ))}
